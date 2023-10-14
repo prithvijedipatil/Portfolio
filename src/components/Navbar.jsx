@@ -23,7 +23,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-100 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex items-center">
-            Praful &nbsp;
+            Prithvi &nbsp;
             <span className="sm:block hidden text-[14px] font-medium">
               | &nbsp;Frontend Devloper
             </span>

@@ -42,85 +42,60 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React- Redux",
+    title: "ReactJS",
     icon: web,
   },
   {
-    title: "HTML,CSS",
+    title: "HTML,CSS,Javascript",
     icon: mobile,
   },
   {
-    title: "TailWind",
+    title: "TailWind,Styled Component & Framer",
     icon: backend,
   },
   {
-    title: "Next JS",
+    title: "Next JS, Three JS",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+ 
   {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Three JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Figma",
+    icon: shopify,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
+ 
+  
+  
 ];
 
-const experiences = [
+const experience = [
   {
-    title: "React.js",
+    title: "InstaCast - Podcast Platform",
     company_name: "AccioJob",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +104,43 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Airbnb",
     company_name: "AccioJob",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed user-centric web applications with a focus on real-time data integration, interactive mapping, and dynamic search functionalities.",
+      " It highlights my proficiency in using modern web development tools to provide users with an immersive and efficient travel accommodation search experience.",
+      "Leveraged the Next.js framework to build a responsive and high-performance web application that provides a seamless user experience.",
+,     "Employed Tailwind CSS to create a clean and beautiful UI with minimal design, ensuring a visually appealing and intuitive user interface.",
+     "Integrated Rapid API to provide real-time accommodation data, enabling dynamic search and interactive map navigation for an improved user experience."
+     
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "AccioJob",
+    title: "UI UX Research & Design",
+    company_name: "Design Boat",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A personalised fitness App. Design and prototyping using Figma",
+      "Detailed approach with Defining the problem, Researching the competitors and solutions, Analysis of customers, Planning the features, Design approach ",
+      "protyping and finally testing the app to sudo launching",
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Youtube Clone",
     company_name: "AccioJob",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Handled working with external APIs, data retrieval and manipulation, and created user-friendly web applications, all while replicating the functionality of a popular platform like YouTube.",
+      "Leveraged the YouTube Google API to access and display video content, demonstrating competence in API integration and data retrieval",
+      "Implemented video playback and search functionalities, allowing users to browse and view content similar to the real YouTube platform.",
+
     ],
   },
 ];
@@ -198,58 +174,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Airbnb Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search for Airbnbs",
     tags: [
       {
-        name: "react",
+        name: "Next JS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TailWind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/prithvijedipatil/AirbnbClone",
   },
   {
-    name: "Job IT",
+    name: "Podcast Platform",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web Application that allows users to stream and upload podcast",
     tags: [
       {
-        name: "react",
+        name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Redux Toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/prithvijedipatil/PodCast",
   },
   {
-    name: "Trip Guide",
+    name: "Youtube Clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application to search for all the videos and comments from Youtube",
     tags: [
       {
-        name: "nextjs",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
@@ -258,8 +234,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/prithvijedipatil/YouTubeClone",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experience, testimonials,projects };
